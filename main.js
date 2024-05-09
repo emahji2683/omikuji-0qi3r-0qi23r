@@ -7,7 +7,7 @@
 
     switch (n) {
       case 0:
-        result.textContent = '大吉';
+        result.textContent = '大吉(景品：甘い物)';
         break;
 
       case 1:
