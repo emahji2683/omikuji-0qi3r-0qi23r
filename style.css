@@ -1,19 +1,25 @@
 @charset "utf-8";
 
+body{
+  background-image: url(ai-generated-8558667_1280.jpg);
+  background-size: 400px;
+}
+
 main {
   margin: 32px auto;
   width: 240px;
 }
 
 section {
-  border: 4px double red;
+  
+  border: 4px double white;
   text-align: center;
-  color: red;
+  color: white;
 }
 
 h1 {
   margin: 0;
-  border-bottom: red 2px solid;
+  border-bottom: white 2px solid;
   font-weight: normal;
   padding: 8px 0;
 }
@@ -23,6 +29,11 @@ p {
   font-weight: bold;
   font-size: 36px;
   padding:18px 0;
+}
+
+#resultsub {
+  font-size: 16px;
+  padding: 0;
 }
 
 button {
@@ -45,4 +56,12 @@ button:hover {
 button:active {
   box-shadow: 0 1px #7a0000;
   transform: translateY(3px);
+}
+
+#alert {
+  color: white;
+  background-color: blueviolet;
+  margin-top: 12px;
+  font-size: 12px;
+  padding: 0;
 }
